@@ -25,10 +25,10 @@ int main() {
     }
 
     try {
-        // http::Request request{URL};
-        // const http::Response response = request.send("GET");
-        // string response_body = string(response.body.begin(), response.body.end());
-        // json data = json::parse(response_body);
+        http::Request request{URL};
+        const http::Response response = request.send("GET");
+        string response_body = string(response.body.begin(), response.body.end());
+        json data = json::parse(response_body);
 
         cout << "response body: " << response_body << endl;
         cout << "in try" << endl;
