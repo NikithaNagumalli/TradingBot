@@ -1,0 +1,7 @@
+# ninja log v5
+72	506	7620455209826812	CMakeFiles/TradingBot.dir/Calculations.cpp.obj	cd72314678557e22
+3	4460	7620455249648461	CMakeFiles/TradingBot.dir/main.cpp.obj	56a968fd987cdc5d
+4465	5330	7620455258118832	TradingBot.exe	75d3e82e92718c1b
+185	2348	7620457274214986	CMakeFiles/TradingBot.dir/Calculations.cpp.obj	cd72314678557e22
+78	5875	7620457309393349	CMakeFiles/TradingBot.dir/main.cpp.obj	56a968fd987cdc5d
+5875	7039	7620457320301061	TradingBot.exe	75d3e82e92718c1b
