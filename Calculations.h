@@ -15,5 +15,5 @@ class Calculations {
         int rsi;
         int stoch;
     public:
-        Calculations();
+        Calculations(json input);
 };

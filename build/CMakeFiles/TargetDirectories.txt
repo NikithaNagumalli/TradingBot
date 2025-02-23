@@ -1,3 +1,0 @@
-C:/Users/nikit/PersonalProjects/TradingBot/build/CMakeFiles/TradingBot.dir
-C:/Users/nikit/PersonalProjects/TradingBot/build/CMakeFiles/edit_cache.dir
-C:/Users/nikit/PersonalProjects/TradingBot/build/CMakeFiles/rebuild_cache.dir

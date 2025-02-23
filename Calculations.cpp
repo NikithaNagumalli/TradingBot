@@ -1,8 +1,8 @@
 #include "Calculations.h"
 
-Calculations::Calculations() {
+Calculations::Calculations(json input) {
     // for (int i = data.size()) {
 
     // }
-    cout << "HIIIIIIIII" << endl;
+    cout << input["pagination"]["limit"] << endl;
 }
