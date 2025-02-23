@@ -1,10 +1,14 @@
 #!/bin/bash
 set -e
-set -x
 
-mkdir build
-cd build
-cmake ..
+if [[ ! -d build ]]
+then
+    echo "[INFO] Build directory does not exist, creating..."
+    mkdir -p build
+else
+    echo "[INFO] Build directory found"
+fi
+cmake build
 cmake --build .
 cd ..
 ./build/TradingBot
