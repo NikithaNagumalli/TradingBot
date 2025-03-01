@@ -1,6 +1,7 @@
 // Momentum Trading
 #pragma once
 #include <iostream>
+#include <queue>
 #include "nlohmann/json.hpp"
 
 using json = nlohmann::json;
@@ -10,10 +11,10 @@ using std::string;
 
 class Calculations {
     private:
-        int sma5;
-        int sma10;
-        int rsi;
-        int stoch;
+        double _sma5;
+        double _sma10;
+        double _rsi;
+        double _stoch;
     public:
         Calculations(json input);
 };

@@ -2,7 +2,7 @@
 set -e
 set -x
 
-mkdir build
+mkdir -p build
 cd build
 cmake ..
 cmake --build .

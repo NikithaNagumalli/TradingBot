@@ -40,7 +40,6 @@ int main() {
 
     // WSACleanup();
     json mockData = json::parse(reponseBody);
-    cout << mockData["pagination"]["limit"] << endl;
     Calculations c = Calculations(mockData);
     return 0;
 }
