@@ -1,9 +1,7 @@
 #include <iostream>
-#include "nlohmann/json.hpp"
+#include "libs/json.hpp"
 #include <fstream>
-#include "HTTPRequest.hpp"
-#include <winsock2.h>
-#include <ws2tcpip.h>
+#include "libs/HTTPRequest.hpp"
 #include "statics.h"
 #include "Calculations.h"
 

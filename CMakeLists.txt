@@ -15,4 +15,3 @@ include_directories(C:/msys64/mingw64/include)
 include_directories(C:/Users/nikit/PersonalProjects/TradingBot/libs)
 
 # Link additional libraries if necessary
-target_link_libraries(TradingBot ws2_32)
